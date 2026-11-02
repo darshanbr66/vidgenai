@@ -1,0 +1,7 @@
+{
+  "title": "The Little Dragon Who Couldn't Fly",
+  "slug": "little-dragon",
+  "synopsis": "The golden star clue shows Lumi and Bobo a magical mountain, where they meet Draco, a little purple dragon who can't fly yet. With practice, encouragement and believing in himself, Draco finally soars above the mountain.",
+  "ending": "The golden star returns and shows a glowing map of a mysterious moonlit castle beyond the clouds. What is waiting there?",
+  "newCharacters": ["Draco, a small baby dragon with soft purple scales, big eyes, small rounded wings and tiny golden horns (Draco in src/ep04/props.tsx)"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "video-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Demo out/demo.mp4",
+    "render:ep02": "remotion render Ep02MysteriousDoor out/ep02-mysterious-door.mp4",
+    "render:ep03": "remotion render Ep03RainbowButterfly out/ep03-rainbow-butterfly.mp4",
+    "render:ep04": "remotion render Ep04 out/ep04-little-dragon.mp4",
+    "render:ep05": "remotion render Ep05 out/ep05-moon-kingdom.mp4 --gl=angle"
+  },
+  "dependencies": {
+    "@react-three/fiber": "8.17.10",
+    "@remotion/cli": "^4.0.539",
+    "@remotion/google-fonts": "^4.0.539",
+    "@remotion/three": "4.0.539",
+    "@types/react": "^18.3.31",
+    "@types/three": "0.170.0",
+    "postprocessing": "6.36.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.539",
+    "three": "0.170.0",
+    "typescript": "^7.0.2"
+  }
+}

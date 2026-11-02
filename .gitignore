@@ -1,0 +1,44 @@
+# Dependencies (restore with: cd video-demo && npm install)
+node_modules/
+
+# Voice engine: Python environment and model files (restore with: lumi-studio/setup.ps1)
+lumi-studio/engine/
+
+# Lumi Studio run history: job logs, Claude transcripts, failed work, test renders
+lumi-studio/data/
+
+# Build output and finished videos (large; share videos outside git)
+video-demo/build/
+video-demo/out/
+*.mp4
+*.mov
+*.webm
+
+# Remotion caches and bundles
+.remotion/
+**/bundle/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+*.tmp
+*.part
+
+# Secrets and local settings
+.env
+.env.*
+*.pem
+*.key
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

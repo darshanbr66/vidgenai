@@ -1,0 +1,13 @@
+[
+  {"id": "l1", "speaker": "lumi", "text": "Bobo, look! The star is showing us a mountain!", "speed": 0.95},
+  {"id": "l2", "speaker": "lumi", "text": "Hello! Why are you sitting here all alone?", "speed": 0.9},
+  {"id": "l3", "speaker": "draco", "voice": "af_nova", "text": "I want to fly... but I can't!", "speed": 0.9},
+  {"id": "l4", "speaker": "draco", "voice": "af_nova", "text": "Everyone else can fly. But I can't.", "speed": 0.9},
+  {"id": "l5", "speaker": "bobo", "text": "Maybe we can help!", "speed": 0.9},
+  {"id": "l6", "speaker": "lumi", "text": "Don't give up! Let's try together!", "speed": 0.95},
+  {"id": "l7", "speaker": "bobo", "text": "Jump like me! Boing!", "speed": 0.95},
+  {"id": "l8", "speaker": "draco", "voice": "af_nova", "text": "Whee! I went up a little bit!", "speed": 0.95},
+  {"id": "l9", "speaker": "lumi", "text": "Believe in yourself, Draco!", "speed": 0.9},
+  {"id": "l10", "speaker": "draco", "voice": "af_nova", "text": "I'm flying! I'm really flying!", "speed": 0.95},
+  {"id": "l11", "speaker": "narrator", "text": "And their next adventure was waiting beyond the clouds...", "speed": 0.95}
+]

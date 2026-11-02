@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumi Studio</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="moon" aria-hidden="true"></span><div><h1>Lumi Studio</h1><p>Lumi's Magical Adventures</p></div></div>
+  <p class="count" id="count"></p>
+</header>
+
+<div class="banner" id="banner" hidden></div>
+
+<main class="stage">
+  <section class="desk" aria-label="Make an episode">
+    <form id="compose" class="panel">
+      <label for="prompt" class="eyebrow" id="composeTitle">Next episode</label>
+      <h2>What happens next?</h2>
+      <textarea id="prompt" rows="7" maxlength="20000" placeholder="Lumi and Bobo find a talking river that has forgotten its song. They help it remember, one note at a time..." required></textarea>
+      <fieldset class="modes">
+        <legend class="sr">How this episode connects to the story</legend>
+        <label><input type="radio" name="mode" value="continue" checked><span><b>Continue the story</b><small id="continueHint">Picks up from the last episode</small></span></label>
+        <label><input type="radio" name="mode" value="standalone"><span><b>New adventure</b><small>Same characters, fresh story</small></span></label>
+      </fieldset>
+      <div class="actions">
+        <button class="primary" id="makeBtn" type="submit">Make this episode</button>
+        <p class="hint" id="formError" role="alert"></p>
+      </div>
+    </form>
+
+    <section id="progress" class="panel" hidden aria-live="polite">
+      <p class="eyebrow" id="progressTitle"></p>
+      <h2 id="progressHeadline"></h2>
+      <p class="prompt-quote" id="progressPrompt"></p>
+      <ol class="steps" id="steps"></ol>
+      <div class="meter" id="renderMeter" hidden><div id="renderBar"></div></div>
+      <div class="timing"><span id="elapsed"></span><button class="quiet" id="cancelBtn" type="button">Cancel</button></div>
+      <details class="activity"><summary>What it's doing right now</summary><ul id="activity"></ul></details>
+    </section>
+
+    <section id="result" class="panel result" hidden aria-live="polite"></section>
+  </section>
+
+  <aside class="screen" aria-label="Video player">
+    <div class="phone" id="phone">
+      <video id="player" controls playsinline preload="metadata"></video>
+      <div class="phone-empty" id="phoneEmpty"><span class="moon big" aria-hidden="true"></span><p>Your episode will play here</p></div>
+    </div>
+    <div class="now" id="now"></div>
+  </aside>
+</main>
+
+<section class="library" aria-label="Episodes">
+  <h2>Episodes</h2>
+  <div class="shelf" id="shelf"></div>
+</section>
+
+<section class="library past" id="pastWrap" hidden aria-label="Runs that did not finish">
+  <h2>Runs that did not finish</h2>
+  <ul id="past"></ul>
+</section>
+
+<script src="/app.js" type="module"></script>
+</body>
+</html>

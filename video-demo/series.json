@@ -1,0 +1,65 @@
+{
+  "series": "Lumi's Magical Adventures",
+  "channel": "Little Moon Story World",
+  "cast": {
+    "Lumi": "The brave, curious girl at the heart of the story. Import from src/story/characters.tsx.",
+    "Bobo": "Lumi's best friend. Import from src/story/characters.tsx; use BoboRider from src/kit so the mint creature stays on his head.",
+    "The mint creature": "A tiny glowing mint creature from Episode 2, no name yet (TinySprite). Rides on Bobo's head.",
+    "The rainbow butterfly": "Regained its colors in Episode 3, no name yet (Butterfly in src/ep03/props.tsx).",
+    "Draco": "A small purple baby dragon from Episode 4 who learned to fly. Import Draco from src/ep04/props.tsx.",
+    "Moonia": "The little glowing guardian of the Moon Kingdom, from Episode 5. Import Moonia from src/ep05/props.tsx."
+  },
+  "episodes": [
+    {
+      "number": 1,
+      "title": "The Little Star That Fell Into the Forest",
+      "slug": "little-star",
+      "synopsis": "Lumi notices one star is missing from the sky and, with Bobo, finds it in the forest and sends it home. You don't have to be big to make a difference.",
+      "ending": "From that night on, Lumi always looked up.",
+      "newCharacters": [
+        "Lumi",
+        "Bobo"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Mysterious Door in the Forest",
+      "slug": "mysterious-door",
+      "synopsis": "Lumi and Bobo hear something and discover a little door in a giant tree, with a tiny world and a tiny new friend behind it.",
+      "ending": "A golden key projects a map that leads to a rainbow forest. Where does it lead?",
+      "newCharacters": [
+        "The tiny glowing mint creature"
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Rainbow Butterfly's Secret",
+      "slug": "rainbow-butterfly",
+      "synopsis": "The map leads to the rainbow forest, where a butterfly has lost its colors because a magical flower stopped glowing. Dew, a kind act and a smile bring the rainbow back. Kindness makes the world brighter.",
+      "ending": "The butterfly has one more secret: it leaves a golden star clue with a keyhole in it, which ties back to the golden key.",
+      "newCharacters": [
+        "The rainbow butterfly"
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The Little Dragon Who Couldn't Fly",
+      "slug": "little-dragon",
+      "synopsis": "The golden star clue shows Lumi and Bobo a magical mountain, where they meet Draco, a little purple dragon who can't fly yet. With practice, encouragement and believing in himself, Draco finally soars above the mountain.",
+      "ending": "The golden star returns and shows a glowing map of a mysterious moonlit castle beyond the clouds. What is waiting there?",
+      "newCharacters": [
+        "Draco, a small baby dragon with soft purple scales, big eyes, small rounded wings and tiny golden horns (Draco in src/ep04/props.tsx)"
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Secret of the Moon Kingdom",
+      "slug": "moon-kingdom",
+      "synopsis": "The golden star opens a moon portal, and Lumi, Bobo and Draco arrive in the Moon Kingdom, a silver castle floating above the clouds. Its guardian Moonia says the Moon Crystal is lost and the lights are fading; the friends find it trapped in a bubble inside a moon flower, and the golden star's light frees it, so the whole kingdom shines again. Helping others makes the world brighter.",
+      "ending": "Moonia gives Lumi a glowing moon pendant, and it projects a shimmering underwater kingdom into the air. Where will it lead?",
+      "newCharacters": [
+        "Moonia, the small glowing silver-blue guardian of the Moon Kingdom, with big eyes, tiny gold stars on her body and a crescent-moon crest (Moonia in src/ep05/props.tsx)"
+      ]
+    }
+  ]
+}

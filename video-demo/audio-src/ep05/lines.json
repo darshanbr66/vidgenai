@@ -1,0 +1,13 @@
+[
+  {"id": "l1", "speaker": "draco", "voice": "af_nova", "text": "Wow! Where does that portal go?", "speed": 0.95},
+  {"id": "l2", "speaker": "lumi", "text": "Let's find out!", "speed": 0.95},
+  {"id": "l3", "speaker": "bobo", "text": "This place is amazing!", "speed": 0.9},
+  {"id": "l4", "speaker": "moonia", "voice": "bf_emma", "text": "Welcome, friends! But our kingdom is in trouble.", "speed": 0.92},
+  {"id": "l5", "speaker": "lumi", "text": "What happened?", "speed": 0.95},
+  {"id": "l6", "speaker": "moonia", "voice": "bf_emma", "text": "The magic Moon Crystal is gone. Our kingdom is losing its light!", "speed": 0.95},
+  {"id": "l7", "speaker": "lumi", "text": "I think the crystal needs a little magic!", "speed": 0.95},
+  {"id": "l8", "speaker": "moonia", "voice": "bf_emma", "text": "You saved our kingdom! Thank you!", "speed": 0.95},
+  {"id": "l9", "speaker": "moonia", "voice": "bf_emma", "text": "Keep this close. It will guide your next adventure.", "speed": 0.95},
+  {"id": "l10", "speaker": "lumi", "text": "An underwater kingdom?", "speed": 0.92},
+  {"id": "l11", "speaker": "narrator", "text": "And another magical adventure was about to begin...", "speed": 0.95}
+]
