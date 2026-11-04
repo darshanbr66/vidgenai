@@ -1,0 +1,14 @@
+[
+  {"id": "l1", "speaker": "draco", "voice": "af_nova", "text": "Wow! A mountain made of snow!", "speed": 0.98},
+  {"id": "l2", "speaker": "lumi", "text": "Let's discover what's waiting there!", "speed": 1.0},
+  {"id": "l3", "speaker": "bobo", "text": "It's so beautiful!", "speed": 0.95},
+  {"id": "l4", "speaker": "lumi", "text": "Hello! Why are you so sad?", "speed": 0.95},
+  {"id": "l5", "speaker": "niva", "voice": "af_kore", "text": "The magical Aurora Crystal has stopped glowing. Our kingdom is losing its colors!", "speed": 1.05},
+  {"id": "l6", "speaker": "draco", "voice": "af_nova", "text": "We can help!", "speed": 0.98},
+  {"id": "l7", "speaker": "lumi", "text": "Wait! The seashell is showing us something!", "speed": 1.02},
+  {"id": "l8", "speaker": "niva", "voice": "af_kore", "text": "Our kingdom is beautiful again!", "speed": 1.0},
+  {"id": "l9", "speaker": "lumi", "text": "Every little light makes a difference!", "speed": 1.0},
+  {"id": "l10", "speaker": "niva", "voice": "af_kore", "text": "Take this snowflake. It will guide you to your next adventure!", "speed": 1.12},
+  {"id": "l11", "speaker": "draco", "voice": "af_nova", "text": "A jungle? Let's go!", "speed": 1.0},
+  {"id": "l12", "speaker": "narrator", "text": "And their next adventure was waiting in a mysterious green world...", "speed": 1.12}
+]

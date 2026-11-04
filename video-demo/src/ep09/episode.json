@@ -1,0 +1,7 @@
+{
+  "title": "The Mystery of the Golden Desert",
+  "slug": "golden-desert",
+  "synopsis": "Kiko's leaf pendant projects a golden desert; a gust of sand blows out of it into Draco's face, his sneeze-fireball singes Bobo's fur, and everyone is swept into the desert. Bobo charges at a banana tree that turns out to be a mirage of a banana-shaped cactus, which boops his nose. Zuzu, a cheeky fennec fox, pops out of the sand with a riddle (Draco says 'A dragon!', Kiko whispers 'A clock!', Bobo thought it was his lunch). At the pyramid door, pushing fails, Bobo bounces off, and Draco's 'strongest dragon' fireball fizzles and buries him in sand; teamwork and the leaf pendant light the three symbols, the door opens, the Golden Sun Crystal rises and a golden wave brings the desert and oasis to life. Bobo gets a tiny golden banana.",
+  "ending": "Zuzu gives Lumi a tiny golden compass that projects a floating sky city. Draco hopes there is no sand up there, and Bobo tries to bite his golden banana (clink!). Their next adventure waits above the clouds.",
+  "newCharacters": ["Zuzu, a cheeky little fennec fox who loves riddles: sandy-golden fur, very large ears with peach insides and dark tips, big amber eyes, a small fluffy cream-tipped tail and a tiny red desert scarf (Zuzu in src/ep09/props.tsx, voice bm_fable pitched 1.22)", "The golden compass (GoldenCompass in src/ep09/props.tsx)", "Bobo's golden banana (GoldenBanana in src/ep09/props.tsx)"]
+}

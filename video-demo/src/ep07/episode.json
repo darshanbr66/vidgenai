@@ -1,0 +1,7 @@
+{
+  "title": "The Secret of the Snowflake Kingdom",
+  "slug": "snowflake-kingdom",
+  "synopsis": "Coralie's seashell shows a snowy mountain and a glowing path of snow, which carries Lumi, Bobo and Draco to the Snowflake Kingdom. There they meet Niva, a little snow fox, who says the Aurora Crystal has stopped glowing and the kingdom is losing its colors; in an ice cave, the seashell's light melts the magic ice, the crystal flies home and the northern lights return. Even small acts of kindness can bring happiness to others.",
+  "ending": "Niva gives Lumi a glowing snowflake pendant, and it projects a mysterious ancient jungle with enormous trees. Their next adventure waits in a green world.",
+  "newCharacters": ["Niva, a little white snow fox with fluffy fur, icy-blue eyes, small pointed ears with pale blue insides, a tiny blue snowflake mark on her forehead and a big fluffy tail (Niva in src/ep07/props.tsx)", "Bobo's red winter scarf (BoboWinter / BoboScarf in src/ep07/props.tsx)"]
+}

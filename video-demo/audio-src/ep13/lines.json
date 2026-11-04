@@ -1,0 +1,182 @@
+[
+ {
+  "id": "l1",
+  "speaker": "tock",
+  "text": "Goodbye, friends! Come back by purple o'clock!",
+  "speed": 1.11
+ },
+ {
+  "id": "l2",
+  "speaker": "lumi",
+  "text": "Bye, Tock! Rainbow Bridge, here we come!",
+  "speed": 1.1
+ },
+ {
+  "id": "l3",
+  "speaker": "bobo",
+  "text": "Um... why can I see clouds through my feet?",
+  "speed": 0.856
+ },
+ {
+  "id": "l4",
+  "speaker": "kiko",
+  "text": "Whoa-oh-oh! ...Just kidding!",
+  "speed": 0.824
+ },
+ {
+  "id": "l5",
+  "speaker": "draco",
+  "text": "Stand back! My dragon magic will fix it!",
+  "speed": 0.846
+ },
+ {
+  "id": "l6",
+  "speaker": "bobo",
+  "text": "Please tell me this bridge comes with a banana safety rail!",
+  "speed": 0.758
+ },
+ {
+  "id": "l7",
+  "speaker": "pico",
+  "text": "Eep! I mean... halt! I'm very brave!",
+  "speed": 0.916
+ },
+ {
+  "id": "l8",
+  "speaker": "pico",
+  "text": "I'm Pico, guardian of the Rainbow Bridge. The Rainbow Heart is losing its magic!",
+  "speed": 0.82
+ },
+ {
+  "id": "l9",
+  "speaker": "kiko",
+  "text": "Boo!",
+  "speed": 0.905
+ },
+ {
+  "id": "l10",
+  "speaker": "bobo",
+  "text": "Wait! Were you blue, green, purple, or a walking rainbow?",
+  "speed": 0.81
+ },
+ {
+  "id": "l11",
+  "speaker": "pico",
+  "text": "Um... even I forgot!",
+  "speed": 0.89
+ },
+ {
+  "id": "l12",
+  "speaker": "pico",
+  "text": "Each island lost its colour orbs. We need all seven!",
+  "speed": 0.815
+ },
+ {
+  "id": "l13",
+  "speaker": "bobo",
+  "text": "Ooh! A giant orange! Breakfast!",
+  "speed": 0.836
+ },
+ {
+  "id": "l14",
+  "speaker": "draco",
+  "text": "Easy! I'll fly to the next island!",
+  "speed": 0.846
+ },
+ {
+  "id": "l15",
+  "speaker": "draco",
+  "text": "I meant to do that!",
+  "speed": 0.846
+ },
+ {
+  "id": "l16",
+  "speaker": "kiko",
+  "text": "Of course you did!",
+  "speed": 0.905
+ },
+ {
+  "id": "l17",
+  "speaker": "pico",
+  "text": "Every colour is a gift. Courage, friendship, happiness, kindness, trust, imagination, and hope!",
+  "speed": 0.761
+ },
+ {
+  "id": "l18",
+  "speaker": "lumi",
+  "text": "Rainbow order! Red first, violet last!",
+  "speed": 1.12
+ },
+ {
+  "id": "l19",
+  "speaker": "lumi",
+  "text": "Bobo, that's not a rainbow colour!",
+  "speed": 0.867
+ },
+ {
+  "id": "l20",
+  "speaker": "bobo",
+  "text": "It should be. It's banana!",
+  "speed": 0.688
+ },
+ {
+  "id": "l21",
+  "speaker": "draco",
+  "text": "I knew that all along!",
+  "speed": 0.833
+ },
+ {
+  "id": "l22",
+  "speaker": "pico",
+  "text": "It's fading... I'm not a good guardian.",
+  "speed": 0.8
+ },
+ {
+  "id": "l23",
+  "speaker": "lumi",
+  "text": "Yes, you are, Pico! We'll do it together!",
+  "speed": 0.799
+ },
+ {
+  "id": "l24",
+  "speaker": "pico",
+  "text": "Rainbow... shine!",
+  "speed": 0.8
+ },
+ {
+  "id": "l25",
+  "speaker": "bobo",
+  "text": "I look like a banana that went on vacation!",
+  "speed": 0.637
+ },
+ {
+  "id": "l26",
+  "speaker": "kiko",
+  "text": "Hee hee... Pico? Where did you go?",
+  "speed": 0.742
+ },
+ {
+  "id": "l27",
+  "speaker": "bobo",
+  "text": "A rainbow banana! Who wants to share?",
+  "speed": 0.745
+ },
+ {
+  "id": "l28",
+  "speaker": "bobo",
+  "text": "Hey!",
+  "speed": 0.77
+ },
+ {
+  "id": "l29",
+  "speaker": "lumi",
+  "text": "Listen! I think our next adventure has a secret melody!",
+  "speed": 0.8
+ },
+ {
+  "id": "l30",
+  "speaker": "narrator",
+  "text": "Next time... the mystery of the magical music box!",
+  "speed": 0.975
+ }
+]

@@ -1,0 +1,7 @@
+{
+  "title": "The Secret of the Floating Sky City",
+  "slug": "floating-sky-city",
+  "synopsis": "Zuzu's golden compass makes the sky city real and a staircase of clouds unrolls from the desert. On the way up Bobo looks down, Kiko fakes a fall and pops back hanging by his tail, and Draco's 'flying is easy' ends with him spinning down onto Bobo ('I'm not a landing platform!'). Shy cloud creature Nimbus sneezes Bobo into a cloud sandwich. In the gravity garden Bobo sticks to the ceiling chasing a banana that keeps floating away, Kiko strolls upside down whistling, and Draco tumbles in the air; the Sky Crystal is fading, trapped in the wind tower. On the moving cloud platforms Draco's fire is just a smoke ring that lands on his head like a halo, and Kiko's sneaky push launches Bobo ('not flying lessons!'). At the top Lumi helps Nimbus be brave: a controlled wind, guided by Draco's wings and Kiko's leaf, frees the crystal, Bobo is blown into a basket of cloud fruit and the city lights up in color. Kiko steals Bobo's banana-shaped cloud just before his bite.",
+  "ending": "Lumi finds a glowing seashell in the crystal chamber; it projects a magical underwater cave. 'Look! I think our next adventure is waiting for us!' Next: The Secret of the Underwater Cave.",
+  "newCharacters": ["Nimbus, a tiny shy cloud creature with uncontrollable windy sneezes: fluffy white body, big blue eyes, tiny white wings, a small cloud-shaped tail, a curl of cloud on its head and pink cheeks (Nimbus in src/ep10/props.tsx, voice af_sky pitched 1.32)"]
+}

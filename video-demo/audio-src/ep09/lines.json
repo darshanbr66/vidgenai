@@ -1,0 +1,154 @@
+[
+ {
+  "id": "l1",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "A desert! Finally, somewhere warm!",
+  "speed": 1.05
+ },
+ {
+  "id": "l2",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "Ah... ah-CHOO!",
+  "speed": 1.0
+ },
+ {
+  "id": "l3",
+  "speaker": "bobo",
+  "text": "Can we go somewhere without explosions?",
+  "speed": 1.1
+ },
+ {
+  "id": "l4",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Hee hee hee!",
+  "speed": 1.1
+ },
+ {
+  "id": "l5",
+  "speaker": "bobo",
+  "text": "BANANAS! FINALLY!",
+  "speed": 0.95
+ },
+ {
+  "id": "l6",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Ha ha ha ha!",
+  "speed": 1.05
+ },
+ {
+  "id": "l7",
+  "speaker": "bobo",
+  "text": "That's NOT a banana!",
+  "speed": 0.95
+ },
+ {
+  "id": "l8",
+  "speaker": "zuzu",
+  "voice": "bm_fable",
+  "text": "Looking for treasure? First, solve my riddle!",
+  "speed": 1.08
+ },
+ {
+  "id": "l9",
+  "speaker": "lumi",
+  "text": "Okay! What's the riddle?",
+  "speed": 1.1
+ },
+ {
+  "id": "l10",
+  "speaker": "zuzu",
+  "voice": "bm_fable",
+  "text": "What has a face... but cannot smile?",
+  "speed": 1.0
+ },
+ {
+  "id": "l11",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "A dragon!",
+  "speed": 1.0
+ },
+ {
+  "id": "l12",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "A clock!",
+  "speed": 0.95
+ },
+ {
+  "id": "l13",
+  "speaker": "zuzu",
+  "voice": "bm_fable",
+  "text": "Correct!",
+  "speed": 1.0
+ },
+ {
+  "id": "l14",
+  "speaker": "bobo",
+  "text": "I thought it was my lunch!",
+  "speed": 1.05
+ },
+ {
+  "id": "l15",
+  "speaker": "lumi",
+  "text": "My pendant matches that symbol!",
+  "speed": 1.1
+ },
+ {
+  "id": "l16",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "Stand back! I am the strongest dragon!",
+  "speed": 1.1
+ },
+ {
+  "id": "l17",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Pfft! Hee hee!",
+  "speed": 1.1
+ },
+ {
+  "id": "l18",
+  "speaker": "zuzu",
+  "voice": "bm_fable",
+  "text": "Maybe the door needs teamwork, not dragon muscles!",
+  "speed": 1.2
+ },
+ {
+  "id": "l19",
+  "speaker": "lumi",
+  "text": "Everyone, together!",
+  "speed": 1.05
+ },
+ {
+  "id": "l20",
+  "speaker": "zuzu",
+  "voice": "bm_fable",
+  "text": "You solved the mystery!",
+  "speed": 1.05
+ },
+ {
+  "id": "l21",
+  "speaker": "bobo",
+  "text": "Is there a snack treasure too?",
+  "speed": 1.05
+ },
+ {
+  "id": "l23",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "A city in the sky? I hope there's no sand up there!",
+  "speed": 1.22
+ },
+ {
+  "id": "l24",
+  "speaker": "narrator",
+  "text": "And their next adventure was waiting above the clouds...",
+  "speed": 1.18
+ }
+]

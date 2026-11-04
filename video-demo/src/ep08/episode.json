@@ -1,0 +1,7 @@
+{
+  "title": "The Secret of the Enchanted Jungle",
+  "slug": "enchanted-jungle",
+  "synopsis": "The first comedy-forward episode. The snowflake pendant turns green, a leaf lands on Draco's nose and his sneeze shoots a tiny fireball at Bobo. In the jungle, Bobo charges at a bunch of bananas, but Kiko, a mischievous golden monkey, swoops in first and hangs upside down laughing. Kiko explains the Heart of the Jungle is missing; Bobo asks if they can save the jungle first and then find bananas, and Lumi gives him a deadpan look. In the temple, Draco's heroic fire turns out to be a tiny puff of smoke, but the green pendant lights the symbols, the cage opens and the jungle comes back to life. Kiko tosses Bobo a banana, and then Bobo discovers the bunch has been swapped for leaves.",
+  "ending": "Kiko gives Lumi a glowing green leaf pendant, and it projects a golden desert with giant pyramids. Draco hopes there are no giant bananas there, and Bobo is disappointed.",
+  "newCharacters": ["Kiko, a mischievous little golden monkey who loves banana pranks: golden-brown fur, big brown eyes, small round ears, a long curly tail and a tiny green leaf on his head (Kiko in src/ep08/props.tsx)"]
+}

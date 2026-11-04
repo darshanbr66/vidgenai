@@ -1,0 +1,145 @@
+[
+ {
+  "id": "l1",
+  "speaker": "lumi",
+  "text": "Wait... did that apple just fall up?",
+  "speed": 0.945
+ },
+ {
+  "id": "l2",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "Easy! I understand time magic. Watch this!",
+  "speed": 0.831
+ },
+ {
+  "id": "l3",
+  "speaker": "bobo",
+  "text": "I think this forest needs a clock repairman!",
+  "speed": 0.714
+ },
+ {
+  "id": "l4",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "You're late! You're early! You're... yesterday!",
+  "speed": 0.92
+ },
+ {
+  "id": "l5",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "I'm Tock, guardian of the tower. The Master Clock has stopped!",
+  "speed": 0.92
+ },
+ {
+  "id": "l6",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "So... what time is it?",
+  "speed": 0.973
+ },
+ {
+  "id": "l7",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "Banana o'clock!",
+  "speed": 0.898
+ },
+ {
+  "id": "l8",
+  "speaker": "bobo",
+  "text": "Banana o'clock?!",
+  "speed": 0.714
+ },
+ {
+  "id": "l9",
+  "speaker": "bobo",
+  "text": "Why does everyone keep seeing me do that?!",
+  "speed": 0.732
+ },
+ {
+  "id": "l10",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "Ta-da! ...Huh? Where did everyone go?",
+  "speed": 0.831
+ },
+ {
+  "id": "l11",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "The clock lost its two hands! One is in the Gear Garden, one in the Pendulum Chamber.",
+  "speed": 0.943
+ },
+ {
+  "id": "l12",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "Hurry! It's half past Thursday!",
+  "speed": 0.92
+ },
+ {
+  "id": "l13",
+  "speaker": "lumi",
+  "text": "Bobo, that's a clock hand!",
+  "speed": 0.945
+ },
+ {
+  "id": "l14",
+  "speaker": "bobo",
+  "text": "Well, it looks delicious!",
+  "speed": 0.714
+ },
+ {
+  "id": "l15",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "I've never fixed it alone... what if I break time?",
+  "speed": 0.898
+ },
+ {
+  "id": "l16",
+  "speaker": "lumi",
+  "text": "You're not alone, Tock. We're right here!",
+  "speed": 0.945
+ },
+ {
+  "id": "l17",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "Hands up... and... TICK!",
+  "speed": 0.898
+ },
+ {
+  "id": "l18",
+  "speaker": "bobo",
+  "text": "Finally! It's banana o'clock!",
+  "speed": 0.714
+ },
+ {
+  "id": "l19",
+  "speaker": "tock",
+  "voice": "bm_george",
+  "text": "Oh no! We're late for tomorrow!",
+  "speed": 0.92
+ },
+ {
+  "id": "l20",
+  "speaker": "bobo",
+  "text": "Not this time, Kiko!",
+  "speed": 0.714
+ },
+ {
+  "id": "l21",
+  "speaker": "lumi",
+  "text": "Another mystery! Come on, friends. Our next adventure is waiting!",
+  "speed": 0.969
+ },
+ {
+  "id": "l22",
+  "speaker": "narrator",
+  "text": "Next time... the mystery of the rainbow bridge!",
+  "speed": 1.003
+ }
+]

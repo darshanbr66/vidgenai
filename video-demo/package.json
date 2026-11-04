@@ -8,7 +8,16 @@
     "render:ep02": "remotion render Ep02MysteriousDoor out/ep02-mysterious-door.mp4",
     "render:ep03": "remotion render Ep03RainbowButterfly out/ep03-rainbow-butterfly.mp4",
     "render:ep04": "remotion render Ep04 out/ep04-little-dragon.mp4",
-    "render:ep05": "remotion render Ep05 out/ep05-moon-kingdom.mp4 --gl=angle"
+    "render:ep05": "remotion render Ep05 out/ep05-moon-kingdom.mp4 --gl=angle",
+    "render:ep06": "remotion render Ep06 out/ep06-underwater-kingdom.mp4 --gl=angle",
+    "render:ep07": "remotion render Ep07 out/ep07-snowflake-kingdom.mp4 --gl=angle",
+    "render:ep08": "remotion render Ep08 out/ep08-enchanted-jungle.mp4 --gl=angle",
+    "render:ep09": "remotion render Ep09 out/ep09-golden-desert.mp4 --gl=angle",
+    "render:ep10": "remotion render Ep10 out/ep10-floating-sky-city.mp4 --gl=angle --image-format=png --crf=16",
+    "render:ep11": "EP=ep11 COMP=Ep11 TOTAL=2112 OUTFILE=out/ep11-whispering-cave.mp4 bash tools/render_chunks.sh",
+    "render:ep12": "EP=ep12 COMP=Ep12 TOTAL=2514 OUTFILE=out/ep12-ancient-clock-tower.mp4 bash tools/render_chunks.sh",
+    "render:ep13": "EP=ep13 COMP=Ep13 TOTAL=3468 OUTFILE=out/ep13-rainbow-bridge.mp4 bash tools/render_chunks.sh",
+    "render:ep14": "EP=ep14 COMP=Ep14 TOTAL=3879 OUTFILE=out/ep14-magical-music-box.mp4 bash tools/render_chunks.sh"
   },
   "dependencies": {
     "@react-three/fiber": "8.17.10",

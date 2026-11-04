@@ -1,0 +1,19 @@
+[
+  {"id": "l1", "speaker": "draco", "voice": "af_nova", "text": "A jungle adventure! I'm ready!", "speed": 1.02},
+  {"id": "l2", "speaker": "draco", "voice": "af_nova", "text": "Ah... ah... ah-CHOO!", "speed": 1.0},
+  {"id": "l3", "speaker": "bobo", "text": "Whoa! Warn us before you do that!", "speed": 1.05},
+  {"id": "l4", "speaker": "bobo", "text": "BANANAS!", "speed": 0.9},
+  {"id": "l5", "speaker": "kiko", "voice": "am_liam", "text": "Hee hee hee!", "speed": 1.05},
+  {"id": "l6", "speaker": "kiko", "voice": "am_liam", "text": "Looking for something, big bear?", "speed": 1.0},
+  {"id": "l7", "speaker": "kiko", "voice": "am_liam", "text": "Hi! I'm Kiko!", "speed": 1.05},
+  {"id": "l8", "speaker": "lumi", "text": "Hello! I'm Lumi. Why are you hiding up there?", "speed": 1.05},
+  {"id": "l9", "speaker": "kiko", "voice": "am_liam", "text": "The Heart of the Jungle disappeared! Without it, our jungle is losing its magic!", "speed": 1.12},
+  {"id": "l10", "speaker": "bobo", "text": "Can we save the jungle first... and then find more bananas?", "speed": 1.05},
+  {"id": "l11", "speaker": "draco", "voice": "af_nova", "text": "Don't worry! I can break this!", "speed": 1.0},
+  {"id": "l12", "speaker": "bobo", "text": "That's your big dragon power?", "speed": 1.0},
+  {"id": "l13", "speaker": "bobo", "text": "HEY! Where are my bananas?", "speed": 1.0},
+  {"id": "l14", "speaker": "kiko", "voice": "am_liam", "text": "Hee hee hee!", "speed": 1.05},
+  {"id": "l15", "speaker": "kiko", "voice": "am_liam", "text": "Take this! It will guide you to your next adventure!", "speed": 1.12},
+  {"id": "l16", "speaker": "draco", "voice": "af_nova", "text": "A desert? I hope there are no giant bananas there!", "speed": 1.15},
+  {"id": "l17", "speaker": "narrator", "text": "And their next adventure was about to begin...", "speed": 1.14}
+]

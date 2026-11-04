@@ -1,0 +1,13 @@
+[
+  {"id": "l1", "speaker": "draco", "voice": "af_nova", "text": "Wow! Is that an underwater world?", "speed": 0.98},
+  {"id": "l2", "speaker": "lumi", "text": "Let's explore!", "speed": 0.95},
+  {"id": "l3", "speaker": "bobo", "text": "I've never seen anything so beautiful!", "speed": 0.95},
+  {"id": "l4", "speaker": "coralie", "voice": "af_sarah", "text": "Welcome, friends! I'm Coralee. Our kingdom needs your help!", "speed": 1.0},
+  {"id": "l5", "speaker": "lumi", "text": "What's wrong?", "speed": 0.98},
+  {"id": "l6", "speaker": "coralie", "voice": "af_sarah", "text": "The magical Ocean Pearl has disappeared! Without it, our kingdom is losing its beautiful colors!", "speed": 1.05},
+  {"id": "l7", "speaker": "lumi", "text": "Look! My pendant has the same symbol!", "speed": 0.98},
+  {"id": "l8", "speaker": "coralie", "voice": "af_sarah", "text": "You saved our kingdom! Thank you!", "speed": 1.0},
+  {"id": "l9", "speaker": "coralie", "voice": "af_sarah", "text": "Keep this seashell. It will guide you to a new adventure!", "speed": 1.02},
+  {"id": "l10", "speaker": "lumi", "text": "A snowy mountain?", "speed": 0.98},
+  {"id": "l11", "speaker": "narrator", "text": "And their next adventure was waiting in a world of snow and ice...", "speed": 1.05}
+]

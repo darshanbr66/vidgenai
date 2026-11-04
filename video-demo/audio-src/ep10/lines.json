@@ -1,0 +1,130 @@
+[
+ {
+  "id": "l1",
+  "speaker": "lumi",
+  "text": "Look! The city is real... and it's floating!",
+  "speed": 0.874
+ },
+ {
+  "id": "l2",
+  "speaker": "bobo",
+  "text": "Don't look down, Bobo... Oh no. I looked down.",
+  "speed": 0.874
+ },
+ {
+  "id": "l3",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Whoa, whoa... I'm falling!",
+  "speed": 0.902
+ },
+ {
+  "id": "l4",
+  "speaker": "bobo",
+  "text": "AAAAH!",
+  "speed": 0.855
+ },
+ {
+  "id": "l5",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Just kidding! Hee hee!",
+  "speed": 0.902
+ },
+ {
+  "id": "l6",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "Stairs? Pfft. Flying is easy!",
+  "speed": 0.902
+ },
+ {
+  "id": "l7",
+  "speaker": "bobo",
+  "text": "Can someone please tell him... I'm not a landing platform?",
+  "speed": 0.874
+ },
+ {
+  "id": "l8",
+  "speaker": "nimbus",
+  "voice": "af_sky",
+  "text": "H-hello... I'm Nimbus.",
+  "speed": 0.836
+ },
+ {
+  "id": "l9",
+  "speaker": "nimbus",
+  "voice": "af_sky",
+  "text": "Ah... ahh... CHOO!",
+  "speed": 0.902
+ },
+ {
+  "id": "l10",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Ha ha ha ha ha!",
+  "speed": 0.95
+ },
+ {
+  "id": "l11",
+  "speaker": "bobo",
+  "text": "I think I just became... a cloud sandwich!",
+  "speed": 0.874
+ },
+ {
+  "id": "l12",
+  "speaker": "bobo",
+  "text": "Come back, banana!",
+  "speed": 0.902
+ },
+ {
+  "id": "l13",
+  "speaker": "lumi",
+  "text": "Look, the Sky Crystal is fading!",
+  "speed": 0.874
+ },
+ {
+  "id": "l14",
+  "speaker": "nimbus",
+  "voice": "af_sky",
+  "text": "It keeps our city floating. It's trapped in the wind tower!",
+  "speed": 0.902
+ },
+ {
+  "id": "l15",
+  "speaker": "bobo",
+  "text": "I came for an adventure, not flying lessons!",
+  "speed": 0.902
+ },
+ {
+  "id": "l16",
+  "speaker": "nimbus",
+  "voice": "af_sky",
+  "text": "My sneezes are too strong...",
+  "speed": 0.855
+ },
+ {
+  "id": "l17",
+  "speaker": "lumi",
+  "text": "You can do it, Nimbus. Breathe... and blow!",
+  "speed": 0.855
+ },
+ {
+  "id": "l18",
+  "speaker": "bobo",
+  "text": "Mmm! Banana cloud...",
+  "speed": 0.874
+ },
+ {
+  "id": "l19",
+  "speaker": "lumi",
+  "text": "Look! I think our next adventure is waiting for us!",
+  "speed": 0.874
+ },
+ {
+  "id": "l20",
+  "speaker": "narrator",
+  "text": "Next time... a secret cave under the sea!",
+  "speed": 0.902
+ }
+]

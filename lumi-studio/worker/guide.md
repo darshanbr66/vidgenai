@@ -6,13 +6,25 @@ Your working directory is `video-demo/`. The user message gives the episode id (
 
 ## The rules that make it this series
 
-- 1080x1920, 30 fps, 40 to 50 seconds (45 is the usual length). 45 s is 1350 frames, 50 s is 1500.
+- 1080x1920, 30 fps, 40 to 50 seconds (45 is the usual length), up to 90 s if the dialogue needs room. 45 s is 1350 frames, 50 s is 1500.
 - No logo or title intro. The first frame is already the most exciting image of the opening: something bursting, flying or glowing, with a sound on frame 0, and motion that is obvious within the first second.
 - Ages 3 to 7: warm, gentle, never scary. One clear idea of kindness, courage or curiosity. Short sentences a small child understands, 12 lines or fewer, and under 12 words per line.
 - A curiosity ending: a new mystery appears, unresolved, then the end card "To Be Continued... ✨" and "Little Moon Story World 🌙" (`<EndCard>`). Leave the card up for at least 1.5 s.
 - Lumi and Bobo must look identical in every episode. Import them, never redraw or restyle them. The little mint creature rides on Bobo's head (`BoboRider`).
 - 5 or 6 scenes, each with a purpose, and the camera moving in every shot. Spoken lines in the same scene should feel like a conversation, with gaps under about 1.5 s.
 - Real visual variety: use at least one tight close-up of a face, one wide establishing shot and one shot from a different place or angle. Never hold the same framing of the same characters for more than about 8 seconds; cut in closer on whoever is speaking or reacting, or move the characters.
+
+## Comedy is half of this series
+
+Every episode is also funny, not only a magical adventure with a lesson. Build the humor into the story itself:
+
+- At least 3 memorable funny moments, plus playful dialogue and banter between the characters.
+- Family-friendly visual comedy: unexpected surprises, slapstick that hurts nobody, exaggerated faces and reactions (big surprised eyes, squash and stretch, double takes, a pause before a reaction).
+- One standout comedy scene that viewers will want to replay: give it its own beat, time it like a gag (setup, pause, payoff) and back it with a matching sound effect.
+- Jokes for small children, plus clever touches (misunderstandings, deadpan reactions, callbacks to earlier episodes) that make older viewers smile.
+- Humor comes from character. Lumi is curious and clever and sometimes gets into funny situations. Bobo loves food, is a bit clumsy and is easily frightened. Draco is overconfident and enthusiastic, and his magic sometimes goes funnily wrong. Every new character gets a distinct personality and their own chance to be funny.
+- Don't force a joke into every scene, and never undercut the big emotional or magical moment (the restoration, the goodbye, the mystery at the end). Joke before or after it, not during it.
+- Keep it wholesome, original and kind: no mean-spirited teasing, nothing scary or gross, and no copied gags or catchphrases from other shows.
 
 ## Files you create
 
@@ -103,6 +115,15 @@ Scenes can have a real 3D world (Three.js inside Remotion) with the series' 2D c
 - `src/kit3d/overlay.tsx`: `camAt(f, [[frame, cam], ...])` moves the camera; two keys one frame apart make a cut. `place(cam, [x, y, z], size)` gives the screen `x`, `y` and `scale` for a character whose feet are at that world point, so characters stay on the 3D ground as the camera moves. `screen(cam, p)` pins 2D effects to 3D objects. `CharLayer` is the 2D layer over the 3D one.
 - Sizes: Lumi is about 1.3 world units tall at size 1. A medium shot of three characters is the camera 7 to 9 units away with `fov` 42 to 46; a close-up is about 4 to 5.5 units away.
 - `src/kit3d/sky.tsx`: SkyDome, Stars, Moon, Halo, CloudSea, FloatingIsland. `src/kit3d/castle.tsx`: MoonCastle, Bridge, Crescent. `src/kit3d/magic.tsx`: MoonPortal, MoonCrystal, MagicBubble, MoonFlower, GlowGarden, SparkleBurst3D, Motes, LightRing, OceanHologram. `src/ep05/world.tsx`: MoonKingdom and Meadow, ready-made places.
+- `src/ep06/world.tsx`: UnderwaterKingdom (a whole sea world with caustics, coral castle, reef, fish, jellyfish, light rays and a color-fade wave), Bubbles, OceanPearl, SnowHologram. `src/ep06/props.tsx`: Coralie the mermaid, AirBubble (a bubble around a character underwater, sizes in BUBBLE_FIT), SeaBeam, GlowShell, SeaMap.
+- `src/ep07/world.tsx`: SnowflakeKingdom (ice castle, snowy pines, frozen waterfall and stream, ice bridges, northern lights, snowfall, color-fade wave), IceCave, AuroraCrystal, IceBlock, JungleHologram, Snowfall, Aurora. `src/ep07/props.tsx`: Niva the snow fox, BoboWinter (Bobo with his scarf), BreathPuff, WarmBreath, AuroraBeam, SnowflakePendant, SnowPath.
+- `src/ep08/world.tsx`: EnchantedJungle (giant trees, flowers that open and close, glowing mushrooms, waterfall, butterflies, birds, sunbeams, a stone temple, life-fade wave), TempleChamber with a stone cage and glyph stones, HeartOfJungle, DesertHologram. `src/ep08/props.tsx`: Kiko the monkey, Vine, JungleMap, LeafPath, LeafPendant, GreenBeam, ChangingPendant.
+- `src/ep09/world.tsx`: GoldenDesert (dunes with sparkling sand, pyramids with glyph bands, a gate with three glowing symbols and a door that sinks open, mesas, a rock arch, obelisks, an oasis that is pale until a golden wave, drifting sand), SunCrystal, SkyCityHologram, `floorY` for standing on the dunes. `src/ep09/props.tsx`: Zuzu the fennec fox, SandMound, SandBurst, SandStream, SandPile/SandFall (Draco's sand gag), BoboFrazzle, BoboPucker, RedNose, TummyRumble, MirageTree, BananaCactus, Tumbleweed, GoldenBanana, GoldenCompass, GoldBeam, IconBubble (question, clock, x, bang, hearts, dots), ShakeLines, DizzyStars.
+- `src/ep10/world.tsx`: SkyCity (floating islands with towers and waterfalls, a cloud sea, the cloud staircase `CloudStairs`/`STEP(i)`, a plaza, a gravity garden with an upside-down ceiling island, the wind tower with moving cloud platforms `platformAt` and a crystal chamber, colored lanterns that light up with the city), Cloud, SkyCrystal, CaveHologram, DistantCity. `src/ep10/props.tsx`: Nimbus the cloud creature, SneezeGust, WindRibbon, SpinLines, CloudLayer, BasketBack/BasketFront, BananaCloud, SmokeRing, LeafFan, SkyBanana, Shiver.
+- `src/ep11/world.tsx`: WhisperCave (a crystal cave that lights up with `alive` 0..1: glowing crystals, coral, jellyfish, fish, light shafts, a tall rock and a wall ledge), WhisperCrystal, CrystalPiece3D, Jelly3D, ClockTowerHologram. `src/ep11/props.tsx`: Bloop the baby octopus, MagicBubble2D, Pop2D, RisingBubbles, BananaFish, Jelly2D, CrystalPiece2D, SteamBubble, CurrentLines, SeaBanana, GlowCoral, KIKO_FIT (Kiko's air bubble; `AirBubble`/`BUBBLE_FIT` are in src/ep06/props.tsx).
+- `src/ep12/world.tsx`: TimeForest (Episode 8's forest without its temple via `EnchantedJungle temple={false}`, backward butterflies, fast-forward flowers, the ClockTower), ClockInterior (wall gears, pendulums, portals, Gear Garden, frozen gear, crank, golden button, Master Clock), Gear, Clock3D, RainbowBridgeHologram. `src/ep12/props.tsx`: Tock the owl, PocketClock, DracoBack (Draco seen from behind), Apple, BananaPeel, ClockHand2D, ClockBox, LoopButton, RewindOverlay, LoopCount. Full renders: `npm run render:epNN` (resumable chunks, `tools/render_chunks.sh`).
+- `src/ep13/world.tsx`: RainbowSky (the Rainbow Bridge above the clouds, islands, Rainbow Gate, heart chamber), MusicBoxHologram. `src/ep13/props.tsx`: Pico the chameleon, ThoughtBubble, TinyFlame, MusicNotes, PuffCloud.
+- `src/ep14/world.tsx`: MusicCastle (castle on a floating island with courtyard, Fountain with `flow`, golden Music Door with five symbols `symAt(i)`, giant harp, organ pipes, drifting 3D notes; `alive` 0..1 fades its colour), InstrumentHall (floating drums/trumpets/violins/bells with `kick`, bell stairs, frozen bell, MusicBox3D on a dais), Note3D, Bell3D, Drum3D, Trumpet3D, Violin3D, GardenHologram. `src/ep14/props.tsx`: Melody the musical fox, SingingStatue, SymbolGlyph, GlowNote, RisingNotes (`sour` for off-key), GiantDrum and Cushions (back/front layers), BananaBox, BoomRings, TootBlast, InvisiblePiano, TummyWaves.
 - Build a new place in `src/epNN/world.tsx` from these pieces, and put new 3D props there too.
 - The characters are always 2D and always drawn over the 3D layer, so never let a 3D object pass in front of them, and stand them on visible 3D ground.
 - Every 3D value must come from the frame: pass `t = g / 30` into components, and never use clocks or `Math.random`.
@@ -110,7 +131,7 @@ Scenes can have a real 3D world (Three.js inside Remotion) with the series' 2D c
 
 ## Voices
 
-`lines.json` speakers with a fixed voice and pitch: `lumi`, `bobo`, `narrator`, `butterfly`, `draco`, `moonia`. Speeds near 0.85 to 0.95 sound best. A new character needs `"voice"` on each of its lines, chosen from `af_nicole`, `af_sarah`, `af_nova`, `am_adam`, `am_michael`, `bf_emma`, `bm_george`, and a pitch: `t.line("x1", "owl", 12.0, pitch=0.95)`. Write words for the ear, since numbers and unusual names are read literally.
+`lines.json` speakers with a fixed voice and pitch: `lumi`, `bobo`, `narrator`, `butterfly`, `draco`, `moonia`, `coralie`, `niva`, `kiko`, `zuzu`, `nimbus`, `bloop`, `whisper` (a soft spooky voice), `tock`, `pico`, `melody`. To make a character sing, follow `scripts/ep14_songs.py`: `scripts/sing_kit.py` re-pitches a spoken syllable into sung notes in the character's own voice. Voices differ in natural speed: measure each speaker's syllables per second and set its speed so all land near 4.5. Pitching a voice up also speeds it up, so keep speeds near 0.75 to 0.85 and aim for about 4.5 syllables per second (Episodes 10 and 11's pace) and leave at least 0.3 s between lines. Call `t.finish(mouth_style="v2")` for the better lip sync (per-line normalized, closes between words, one frame of lead). Speeds near 0.85 to 0.95 sound best. A new character needs `"voice"` on each of its lines, chosen from `af_nicole`, `af_sarah`, `af_nova`, `am_adam`, `am_michael`, `bf_emma`, `bm_george`, and a pitch: `t.line("x1", "owl", 12.0, pitch=0.95)`. Write words for the ear, since numbers and unusual names are read literally.
 
 ## Soundtrack
 
@@ -132,7 +153,9 @@ add(t.sfx, whoosh(1.5, 0.2), BURST_T)
 t.finish()
 ```
 
-Also in `audio_kit`: `music_box`, `flutter`, `water_drop`, `crickets`, `bird`, `noise_band`, `ping`, `note_hz`. Every important on-screen event should have a matching sound at the same moment. Make new effects in your own script from these if the story needs them.
+Also in `audio_kit`: `music_box`, `flutter`, `water_drop`, `crickets`, `bird`, `noise_band`, `ping`, `note_hz`.
+
+**Music must change from scene to scene and from episode to episode.** `run()` with HOPE/TENDER/JOY is the old Episode 3-8 sound (one music box, 80 BPM, F major) and made every episode sound the same; use it at most for a short moment. Score each scene as its own `Cue` from `scripts/score_kit.py` (`from score_kit import *`), each with a different key, tempo and instruments: `oud`, `pizz`, `harp`, `harp_gliss`, `marimba`, `xylo`, `glock`, `celesta`, `strings` (with `trem`), `brass`, `flute`, `tuba`, `bassoon`, `choir`, drums `dum`, `tek`, `frame_drum`, `shaker`, `tamb`, `zill`, `woodblock`, `snap`, `timpani`, `timp_roll`, `snare_roll`, `cymbal_swell`, `crash`. Use `cue.mute(a, b)` for a comic dead stop before a punchline. Comedy effects: `sad_trombone`, `buzzer`, `ding`, `record_scratch`, `tummy_rumble`, `bwomp`, `boing`, `pop`, `squeak`, `clink`, `pomf`, `sand_step`, `tumbleweed`. `scripts/ep09_audio.py` is the example. Every important on-screen event should have a matching sound at the same moment. Make new effects in your own script from these if the story needs them.
 
 ## `src/epNN/episode.json`
 

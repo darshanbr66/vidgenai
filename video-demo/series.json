@@ -2,12 +2,22 @@
   "series": "Lumi's Magical Adventures",
   "channel": "Little Moon Story World",
   "cast": {
-    "Lumi": "The brave, curious girl at the heart of the story. Import from src/story/characters.tsx.",
-    "Bobo": "Lumi's best friend. Import from src/story/characters.tsx; use BoboRider from src/kit so the mint creature stays on his head.",
+    "Lumi": "The brave, curious girl at the heart of the story. Import from src/story/characters.tsx. Personality: curious and clever, and occasionally gets into funny situations.",
+    "Bobo": "Lumi's best friend. Import from src/story/characters.tsx; use BoboRider from src/kit so the mint creature stays on his head. Personality: funny, food-loving, slightly clumsy and easily frightened.",
     "The mint creature": "A tiny glowing mint creature from Episode 2, no name yet (TinySprite). Rides on Bobo's head.",
     "The rainbow butterfly": "Regained its colors in Episode 3, no name yet (Butterfly in src/ep03/props.tsx).",
-    "Draco": "A small purple baby dragon from Episode 4 who learned to fly. Import Draco from src/ep04/props.tsx.",
-    "Moonia": "The little glowing guardian of the Moon Kingdom, from Episode 5. Import Moonia from src/ep05/props.tsx."
+    "Draco": "A small purple baby dragon from Episode 4 who learned to fly. Import Draco from src/ep04/props.tsx. Personality: overconfident and enthusiastic; his magic sometimes goes funnily wrong. Running gag since Episode 9: he boasts that he is the strongest dragon and gets buried in sand (SandPile in src/ep09/props.tsx).",
+    "Moonia": "The little glowing guardian of the Moon Kingdom, from Episode 5. Import Moonia from src/ep05/props.tsx. Personality: gentle and a little formal, like a tiny royal guardian.",
+    "Coralie": "The little mermaid guardian of the Underwater Kingdom, from Episode 6. Import Coralie from src/ep06/props.tsx. Personality: gentle and adventurous, loves to show off her kingdom. Returned in Episode 11 (voice af_sarah, pitch 1.16).",
+    "The Ocean Pearl": "The Underwater Kingdom's magic pearl with a moon symbol, from Episode 6 (OceanPearl in src/ep06/world.tsx).",
+    "Niva": "A little white snow fox from the Snowflake Kingdom, from Episode 7. Import Niva from src/ep07/props.tsx. Personality: gentle and playful; shy at first, then bouncy.",
+    "Kiko": "A mischievous little golden monkey from the Enchanted Jungle, from Episode 8. Import Kiko from src/ep08/props.tsx. Personality: energetic, clever and playful; loves harmless banana pranks and swinging on vines.",
+    "Zuzu": "A cheeky little fennec fox from the Golden Desert, from Episode 9. Import Zuzu from src/ep09/props.tsx (voice bm_fable, pitch 1.22). Personality: clever and playful, loves riddles and tricks, likes to pretend to be mysterious, becomes a loyal friend.",
+    "Nimbus": "A tiny, shy cloud creature from the Floating Sky City, from Episode 10. Import Nimbus from src/ep10/props.tsx (voice af_sky, pitch 1.32). Personality: shy but playful, loves making friends, has uncontrollable sneezes that make huge gusts of wind; learned to make a controlled wind. Stayed in the Sky City in Episode 11.",
+    "Bloop": "A tiny, shy turquoise baby octopus from the Whispering Cave, from Episode 11. Import Bloop from src/ep11/props.tsx (voice af_jessica, pitch 1.38). Personality: shy but very friendly, curious and playful, nervous easily; magical hiccups make bubbles that float things and people; learned to make calm, controlled bubbles. Stayed in the Whispering Cave in Episode 12.",
+    "Tock": "A tiny golden-brown baby owl, guardian of the Ancient Clock Tower, from Episode 12. Import Tock from src/ep12/props.tsx (voice bm_george, pitch 1.32). Personality: clever, curious and enthusiastic, loves clocks and inventions, always announces the wrong time with total confidence ('Banana o'clock!', 'half past Thursday'), nervous when the tower breaks; learned he can fix things with friends.",
+    "Pico": "A tiny rainbow chameleon, guardian of the Rainbow Bridge, from Episode 13. Import Pico from src/ep13/props.tsx (voice bf_lily, pitch 1.36). Personality: playful, friendly and very curious; startles easily and changes colour every time (sometimes so fast nobody knows its real colour, a soft mint green); tries to look brave but is easily frightened; learned to believe in itself and shine. Stayed at the Rainbow Bridge.",
+    "Melody": "A tiny pastel-pink musical fox, guardian of the Magical Music Box in the Enchanted Music Castle, from Episode 14. Import Melody from src/ep14/props.tsx (voice af_aoede, pitch 1.3; sing with scripts/sing_kit.py). Personality: friendly, playful and enthusiastic, loves music and dancing, can hear melodies others can't, sometimes sings completely out of tune and gets embarrassed; makes glowing notes with her tail; learned to believe in herself. Stayed at the castle."
   },
   "episodes": [
     {
@@ -59,6 +69,99 @@
       "ending": "Moonia gives Lumi a glowing moon pendant, and it projects a shimmering underwater kingdom into the air. Where will it lead?",
       "newCharacters": [
         "Moonia, the small glowing silver-blue guardian of the Moon Kingdom, with big eyes, tiny gold stars on her body and a crescent-moon crest (Moonia in src/ep05/props.tsx)"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The Secret of the Underwater Kingdom",
+      "slug": "underwater-kingdom",
+      "synopsis": "Moonia's moon pendant shows a map of the sea, and a magic bubble carries Lumi, Bobo and Draco down to the Underwater Kingdom. Its guardian, the little mermaid Coralie, says the Ocean Pearl is missing and the kingdom is losing its colors; the friends find it trapped in a giant bubble by a cave, and the pendant's matching moon symbol frees it, so a wave of color sweeps through the sea. Helping others makes the world more beautiful.",
+      "ending": "Coralie gives Lumi a tiny glowing seashell, and it projects a mysterious snowy mountain. Their next adventure waits in a world of snow and ice.",
+      "newCharacters": [
+        "Coralie, the little mermaid guardian of the Underwater Kingdom: turquoise-and-aqua tail, long flowing ocean-blue hair, little fin-shaped ears, a sea-green top, a pearl belt and a sparkling pink seashell hair clip (Coralie in src/ep06/props.tsx)"
+      ]
+    },
+    {
+      "number": 7,
+      "title": "The Secret of the Snowflake Kingdom",
+      "slug": "snowflake-kingdom",
+      "synopsis": "Coralie's seashell shows a snowy mountain and a glowing path of snow, which carries Lumi, Bobo and Draco to the Snowflake Kingdom. There they meet Niva, a little snow fox, who says the Aurora Crystal has stopped glowing and the kingdom is losing its colors; in an ice cave, the seashell's light melts the magic ice, the crystal flies home and the northern lights return. Even small acts of kindness can bring happiness to others.",
+      "ending": "Niva gives Lumi a glowing snowflake pendant, and it projects a mysterious ancient jungle with enormous trees. Their next adventure waits in a green world.",
+      "newCharacters": [
+        "Niva, a little white snow fox with fluffy fur, icy-blue eyes, small pointed ears with pale blue insides, a tiny blue snowflake mark on her forehead and a big fluffy tail (Niva in src/ep07/props.tsx)",
+        "Bobo's red winter scarf (BoboWinter / BoboScarf in src/ep07/props.tsx)"
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The Secret of the Enchanted Jungle",
+      "slug": "enchanted-jungle",
+      "synopsis": "The first comedy-forward episode. The snowflake pendant turns green, a leaf lands on Draco's nose and his sneeze shoots a tiny fireball at Bobo. In the jungle, Bobo charges at a bunch of bananas, but Kiko, a mischievous golden monkey, swoops in first and hangs upside down laughing. Kiko explains the Heart of the Jungle is missing; Bobo asks if they can save the jungle first and then find bananas, and Lumi gives him a deadpan look. In the temple, Draco's heroic fire turns out to be a tiny puff of smoke, but the green pendant lights the symbols, the cage opens and the jungle comes back to life. Kiko tosses Bobo a banana, and then Bobo discovers the bunch has been swapped for leaves.",
+      "ending": "Kiko gives Lumi a glowing green leaf pendant, and it projects a golden desert with giant pyramids. Draco hopes there are no giant bananas there, and Bobo is disappointed.",
+      "newCharacters": [
+        "Kiko, a mischievous little golden monkey who loves banana pranks: golden-brown fur, big brown eyes, small round ears, a long curly tail and a tiny green leaf on his head (Kiko in src/ep08/props.tsx)"
+      ]
+    },
+    {
+      "number": 9,
+      "title": "The Mystery of the Golden Desert",
+      "slug": "golden-desert",
+      "synopsis": "Kiko's leaf pendant projects a golden desert; a gust of sand blows out of it into Draco's face, his sneeze-fireball singes Bobo's fur, and everyone is swept into the desert. Bobo charges at a banana tree that turns out to be a mirage of a banana-shaped cactus, which boops his nose. Zuzu, a cheeky fennec fox, pops out of the sand with a riddle (Draco says 'A dragon!', Kiko whispers 'A clock!', Bobo thought it was his lunch). At the pyramid door, pushing fails, Bobo bounces off, and Draco's 'strongest dragon' fireball fizzles and buries him in sand; teamwork and the leaf pendant light the three symbols, the door opens, the Golden Sun Crystal rises and a golden wave brings the desert and oasis to life. Bobo gets a tiny golden banana.",
+      "ending": "Zuzu gives Lumi a tiny golden compass that projects a floating sky city. Draco hopes there is no sand up there, and Bobo tries to bite his golden banana (clink!). Their next adventure waits above the clouds.",
+      "newCharacters": [
+        "Zuzu, a cheeky little fennec fox who loves riddles: sandy-golden fur, very large ears with peach insides and dark tips, big amber eyes, a small fluffy cream-tipped tail and a tiny red desert scarf (Zuzu in src/ep09/props.tsx, voice bm_fable pitched 1.22)",
+        "The golden compass (GoldenCompass in src/ep09/props.tsx)",
+        "Bobo's golden banana (GoldenBanana in src/ep09/props.tsx)"
+      ]
+    },
+    {
+      "number": 10,
+      "title": "The Secret of the Floating Sky City",
+      "slug": "floating-sky-city",
+      "synopsis": "Zuzu's golden compass makes the sky city real and a staircase of clouds unrolls from the desert. On the way up Bobo looks down, Kiko fakes a fall and pops back hanging by his tail, and Draco's 'flying is easy' ends with him spinning down onto Bobo ('I'm not a landing platform!'). Shy cloud creature Nimbus sneezes Bobo into a cloud sandwich. In the gravity garden Bobo sticks to the ceiling chasing a banana that keeps floating away, Kiko strolls upside down whistling, and Draco tumbles in the air; the Sky Crystal is fading, trapped in the wind tower. On the moving cloud platforms Draco's fire is just a smoke ring that lands on his head like a halo, and Kiko's sneaky push launches Bobo ('not flying lessons!'). At the top Lumi helps Nimbus be brave: a controlled wind, guided by Draco's wings and Kiko's leaf, frees the crystal, Bobo is blown into a basket of cloud fruit and the city lights up in color. Kiko steals Bobo's banana-shaped cloud just before his bite.",
+      "ending": "Lumi finds a glowing seashell in the crystal chamber; it projects a magical underwater cave. 'Look! I think our next adventure is waiting for us!' Next: The Secret of the Underwater Cave.",
+      "newCharacters": [
+        "Nimbus, a tiny shy cloud creature with uncontrollable windy sneezes: fluffy white body, big blue eyes, tiny white wings, a small cloud-shaped tail, a curl of cloud on its head and pink cheeks (Nimbus in src/ep10/props.tsx, voice af_sky pitched 1.32)"
+      ]
+    },
+    {
+      "number": 11,
+      "title": "The Secret of the Whispering Underwater Cave",
+      "slug": "whispering-cave",
+      "synopsis": "The seashell wraps Lumi, Bobo, Draco and Kiko in a bubble; Nimbus waves goodbye and they drop into the sea. Bobo chases a fish that looks exactly like a banana ('Even the fish are teasing me about bananas!') and Draco's 'fastest swimmer' boast rolls the whole bubble over. Coralie welcomes them at a cave that whispers 'Help us...'; Bobo hides behind Draco, whose wings shake ('a powerful dragon technique!'). Inside, shy baby octopus Bloop hiccups a giant bubble that floats Bobo upside down, and Kiko bounces off it. The Whisper Crystal has lost three pieces: a hiccup bubble lifts Lumi to the first, Kiko proudly finds a glowing jellyfish ('That's definitely not a crystal!') before the real second piece, and Draco's fireball is one tiny steam bubble. At a rock in a strong current, Lumi helps Bloop make calm, controlled bubbles; Bobo is carried off and lands on Draco ('underwater transportation!'). The pieces restore the crystal, the cave lights up and sings, and Kiko steals Bobo's golden sea-banana.",
+      "ending": "The Whisper Crystal projects an ancient clock tower standing in a magical forest. 'An ancient clock tower? I wonder what secrets it holds!' Next: The Secret of the Ancient Clock Tower.",
+      "newCharacters": [
+        "Bloop, a tiny shy turquoise baby octopus with magical hiccups that make bubbles: eight short soft tentacles, big purple eyes, pink cheeks, a smiling face and tiny glowing spots on its head (Bloop in src/ep11/props.tsx, voice af_jessica pitched 1.38)"
+      ]
+    },
+    {
+      "number": 12,
+      "title": "The Secret of the Ancient Clock Tower",
+      "slug": "ancient-clock-tower",
+      "synopsis": "The Whisper Crystal's hologram leads the friends into an enchanted forest where time runs strangely: an apple falls and jumps back onto its branch, leaves drift up, butterflies fly backward, Kiko strolls backward as if it's normal, a banana peel vanishes and reappears, and Draco's 'time magic' spins him dizzy ('this forest needs a clock repairman!'). At the Ancient Clock Tower, tiny owl Tock ('You're late! You're early! You're... yesterday!') explains the Master Clock has stopped, and announces it is 'Banana o'clock!'. Inside, a time glitch makes Bobo slip three times in a loop, Kiko uses a loop button to make him dance twice, and Draco flies through a portal and comes out facing the wrong way. The clock's two hands are missing: Draco rides a turning floor gear while Kiko grabs one from a pendulum, and Bobo tries to bite the other ('it looks delicious!'). Tock is scared to repair the clock alone; Lumi encourages him, Draco's warm puff thaws a frozen gear, Kiko turns a crank, Bobo accidentally presses the giant button and shakes the tower, and Tock guides the hands home: the clock ticks again ('banana o'clock!'). Kiko moves Tock's clock forward ('late for tomorrow!'), and this time Bobo catches Kiko trying to steal his golden banana.",
+      "ending": "The Master Clock projects a giant rainbow bridge leading to a kingdom in the clouds. 'Another mystery! Come on, friends. Our next adventure is waiting!' Next: The Mystery of the Rainbow Bridge.",
+      "newCharacters": [
+        "Tock, a tiny fluffy golden-brown baby owl and guardian of the Ancient Clock Tower: big turquoise eyes, tiny golden spectacles, a small golden clock pendant, ear tufts, tiny wings and orange feet; loves clocks and always gets the time wrong (Tock in src/ep12/props.tsx, voice bm_george pitched 1.32)"
+      ]
+    },
+    {
+      "number": 13,
+      "title": "The Mystery of the Rainbow Bridge",
+      "slug": "rainbow-bridge",
+      "synopsis": "Starting where Episode 12 ended, Tock waves goodbye ('Come back by purple o'clock!') and the friends jump into the Master Clock's image of a rainbow bridge. They land on a floating island above the clouds, where a giant seven-band Rainbow Bridge links drifting islands, but its colours are fading: red turns pale, blue goes grey, yellow flickers, and little clouds pop away. The bridge turns see-through under Bobo's feet, Kiko fakes a fall through it and bounces back on a cloud ('Just kidding!'), Draco's dragon magic makes one tiny puff, and Bobo asks for a banana safety rail. Behind a colourful cloud they meet Pico, a tiny rainbow chameleon and guardian of the bridge, who changes colour whenever startled; Kiko's 'Boo!' sends Pico through every colour ('Were you blue, green, purple, or a walking rainbow?' 'Um... even I forgot!'). On the islands of missing colours they collect colour orbs: Bobo mistakes the orange one for breakfast, Kiko swaps it for a stone (clonk), and Draco flies into a colourful cloud ('I meant to do that!' 'Of course you did!'). At the Rainbow Gate each colour is a quality (courage, friendship, happiness, kindness, trust, imagination, hope); Lumi puts them in rainbow order, Bobo plugs the orange gap with a banana ('It should be. It's banana!'), and Kiko finally hands back the real orange orb. In the chamber at the bridge's crown the Rainbow Heart has almost faded and Pico feels like a bad guardian; Lumi encourages Pico, Kiko places the orbs, Draco lights the pedestal with a small careful flame, Bobo trips into a burst of rainbow energy, and Pico shines: the heart is restored, and Bobo is left in seven colours ('I look like a banana that went on vacation!'). The colour spreads across the whole bridge, the islands reconnect and rainbow light falls pour down; Pico dodges Kiko's next prank by hiding in a rainbow flower, and Kiko takes the first bite of Bobo's rainbow banana.",
+      "ending": "The Rainbow Heart projects a music box in an enchanted castle. 'Listen! I think our next adventure has a secret melody!' Next: The Mystery of the Magical Music Box.",
+      "newCharacters": [
+        "Pico, a tiny rainbow chameleon and guardian of the Rainbow Bridge: mint-green soft scales, huge turquoise eyes in round chameleon turrets, a little crest, a curled tail, tiny feet and a glowing rainbow mark on the forehead; playful and curious, startles easily and changes colour every time, tries to look brave (Pico in src/ep13/props.tsx, voice bf_lily pitched 1.36)"
+      ]
+    },
+    {
+      "number": 14,
+      "title": "The Mystery of the Magical Music Box",
+      "slug": "magical-music-box",
+      "synopsis": "Starting where Episode 13 ended, Pico waves goodbye ('Good luck with the music box!') and the friends jump into the Rainbow Heart's image. They drop into the courtyard of an enchanted castle on a floating island: beautiful towers, giant golden instruments and floating notes, but strangely silent. Bobo's claps make no sound and his 'Hello-o!' gets no echo, Kiko plays an invisible piano, Draco's dragon music magic produces one tiny squeak, and Bobo's rumbling tummy is the loudest sound in the castle ('Even my stomach makes more music than this castle!'). Off-key singing behind the silent fountain turns out to be Melody, a tiny pastel-pink musical fox and guardian of the Magical Music Box, whose melody is lost. Her proud demo cracks so badly that the stone singing-bird statue looks confused and Bobo covers his ears ('Was that a song or a sleepy dinosaur?' 'It was supposed to be a beautiful melody!'). At the golden Music Door, five symbols glow in a pattern; Melody's tail sends glowing notes, Kiko secretly taps a silly tune and the door blows a raspberry, Draco honks like a goose, Bobo dances to the wrong beat ('my feet definitely do!'), and together they follow the glow and the door opens. In the Hall of Instruments, Kiko sets everything off at once, 'Maestro Draco' conducts chaos and gets tooted in the face, and Bobo backs into the giant banana drum: BOOM ('the world's biggest banana drum!'). Three notes are missing from the music box: Lumi solves the bell stairs, Kiko bounces off the drum to catch a floating note, and Draco melts a frozen bell with a tiny, careful flame ('I knew my musical talent would help!' 'You were making sounds like a broken trumpet!'). Melody fears she'll ruin the last note, Lumi encourages her, and she sings it beautifully: the music box plays, the castle fills with colour, the fountains flow, everyone dances, Draco spins into a pile of cushions, and Bobo finds a tiny golden banana music box with a dancing banana inside.",
+      "ending": "The restored music box projects a floating flower garden above a lake. 'Another magical mystery! Let's discover where that garden leads!' Next: The Secret of the Floating Flower Garden.",
+      "newCharacters": [
+        "Melody, a tiny pastel-pink musical fox and guardian of the Magical Music Box: big violet eyes with star sparkles, large ears with lavender tips, a fluffy tail with a soft rainbow gradient and white tip that sends glowing notes, a golden music-note mark on the forehead, a little golden bell collar and tiny glowing stars around her paws; friendly, playful and musical, hears melodies others can't, sometimes sings wildly off-key and gets embarrassed (blushes, ears droop); learned to believe in her own voice (Melody in src/ep14/props.tsx, voice af_aoede pitched 1.3; her singing is her own voice re-pitched by scripts/sing_kit.py)"
       ]
     }
   ]

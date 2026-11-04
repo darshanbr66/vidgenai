@@ -1,0 +1,135 @@
+[
+ {
+  "id": "l1",
+  "speaker": "nimbus",
+  "voice": "af_sky",
+  "text": "Bye-bye, friends! Come back soon!",
+  "speed": 0.809
+ },
+ {
+  "id": "l2",
+  "speaker": "bobo",
+  "text": "A banana fish! Come here...",
+  "speed": 0.809
+ },
+ {
+  "id": "l3",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Hee hee! That's just a yellow fish!",
+  "speed": 0.837
+ },
+ {
+  "id": "l4",
+  "speaker": "bobo",
+  "text": "Even the fish are teasing me about bananas!",
+  "speed": 0.809
+ },
+ {
+  "id": "l5",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "Watch this! I'm the fastest swimmer in the sea!",
+  "speed": 0.837
+ },
+ {
+  "id": "l6",
+  "speaker": "coralie",
+  "voice": "af_sarah",
+  "text": "Welcome back, friends! Strange whispers are coming from the cave.",
+  "speed": 0.809
+ },
+ {
+  "id": "l7",
+  "speaker": "whisper",
+  "voice": "af_nicole",
+  "text": "Help us... help us...",
+  "speed": 0.744
+ },
+ {
+  "id": "l8",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Draco... are your wings dancing?",
+  "speed": 0.809
+ },
+ {
+  "id": "l9",
+  "speaker": "draco",
+  "voice": "af_nova",
+  "text": "It's a powerful dragon technique!",
+  "speed": 0.837
+ },
+ {
+  "id": "l10",
+  "speaker": "bloop",
+  "voice": "af_jessica",
+  "text": "H-hi... I'm Bloop!",
+  "speed": 0.79
+ },
+ {
+  "id": "l11",
+  "speaker": "bobo",
+  "text": "Somebody pop this bubble! I didn't order underwater flying!",
+  "speed": 0.837
+ },
+ {
+  "id": "l12",
+  "speaker": "coralie",
+  "voice": "af_sarah",
+  "text": "Our Whisper Crystal stopped glowing. We need its three lost pieces!",
+  "speed": 0.837
+ },
+ {
+  "id": "l13",
+  "speaker": "kiko",
+  "voice": "am_liam",
+  "text": "Great! We found a glowing jellyfish!",
+  "speed": 0.837
+ },
+ {
+  "id": "l14",
+  "speaker": "coralie",
+  "voice": "af_sarah",
+  "text": "That's definitely not a crystal!",
+  "speed": 0.809
+ },
+ {
+  "id": "l15",
+  "speaker": "bloop",
+  "voice": "af_jessica",
+  "text": "The current is too strong... what if I hiccup wrong?",
+  "speed": 0.809
+ },
+ {
+  "id": "l16",
+  "speaker": "lumi",
+  "text": "You can do it, Bloop. Slow and steady!",
+  "speed": 0.809
+ },
+ {
+  "id": "l17",
+  "speaker": "bobo",
+  "text": "I think I just discovered underwater transportation!",
+  "speed": 0.837
+ },
+ {
+  "id": "l18",
+  "speaker": "coralie",
+  "voice": "af_sarah",
+  "text": "Thank you, friends! Listen... the cave is singing!",
+  "speed": 0.809
+ },
+ {
+  "id": "l19",
+  "speaker": "lumi",
+  "text": "An ancient clock tower? I wonder what secrets it holds!",
+  "speed": 0.809
+ },
+ {
+  "id": "l20",
+  "speaker": "narrator",
+  "text": "Next time... the secret of the ancient clock tower!",
+  "speed": 0.837
+ }
+]

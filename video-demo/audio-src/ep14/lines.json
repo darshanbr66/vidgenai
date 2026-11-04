@@ -1,0 +1,176 @@
+[
+ {
+  "id": "l1",
+  "speaker": "pico",
+  "text": "Bye, friends! Good luck with the music box!",
+  "speed": 0.885
+ },
+ {
+  "id": "l2",
+  "speaker": "lumi",
+  "text": "Thank you, Pico! To the music castle!",
+  "speed": 0.858
+ },
+ {
+  "id": "l3",
+  "speaker": "lumi",
+  "text": "Wow... but why is it so quiet?",
+  "speed": 0.979
+ },
+ {
+  "id": "l4",
+  "speaker": "bobo",
+  "text": "Hello-o! ...Hey! Where's my echo?",
+  "speed": 0.712
+ },
+ {
+  "id": "l5",
+  "speaker": "kiko",
+  "text": "Plink, plonk! Kiko's invisible piano!",
+  "speed": 0.76
+ },
+ {
+  "id": "l6",
+  "speaker": "draco",
+  "text": "Stand back! Dragon music magic!",
+  "speed": 0.846
+ },
+ {
+  "id": "l7",
+  "speaker": "bobo",
+  "text": "Even my stomach makes more music than this castle!",
+  "speed": 0.724
+ },
+ {
+  "id": "l9",
+  "speaker": "melody",
+  "text": "Oh! Visitors! Hello, hello! I'm Melody!",
+  "speed": 0.583
+ },
+ {
+  "id": "l10",
+  "speaker": "melody",
+  "text": "I guard the Magical Music Box, but its melody is lost!",
+  "speed": 0.674
+ },
+ {
+  "id": "l11",
+  "speaker": "melody",
+  "text": "Let me show you how it goes. Ahem!",
+  "speed": 0.716
+ },
+ {
+  "id": "l12",
+  "speaker": "kiko",
+  "text": "Was that a song or a sleepy dinosaur?",
+  "speed": 0.743
+ },
+ {
+  "id": "l13",
+  "speaker": "melody",
+  "text": "It was supposed to be a beautiful melody!",
+  "speed": 0.458
+ },
+ {
+  "id": "l15",
+  "speaker": "lumi",
+  "text": "Look! The symbols glow in a pattern!",
+  "speed": 0.85
+ },
+ {
+  "id": "l16",
+  "speaker": "draco",
+  "text": "Step aside! I'm a natural!",
+  "speed": 0.82
+ },
+ {
+  "id": "l17",
+  "speaker": "bobo",
+  "text": "I don't know the song, but my feet definitely do!",
+  "speed": 0.647
+ },
+ {
+  "id": "l19",
+  "speaker": "melody",
+  "text": "The Hall of Instruments! Touch one, and it sings!",
+  "speed": 0.835
+ },
+ {
+  "id": "l20",
+  "speaker": "draco",
+  "text": "Maestro Draco will conduct! Orchestra, follow me!",
+  "speed": 0.846
+ },
+ {
+  "id": "l21",
+  "speaker": "bobo",
+  "text": "I think I just played the world's biggest banana drum!",
+  "speed": 0.76
+ },
+ {
+  "id": "l22",
+  "speaker": "melody",
+  "text": "Oh no! Three notes are missing from the music box!",
+  "speed": 0.678
+ },
+ {
+  "id": "l23",
+  "speaker": "lumi",
+  "text": "These bells go low to high, like little stairs!",
+  "speed": 1.068
+ },
+ {
+  "id": "l26",
+  "speaker": "draco",
+  "text": "I knew my musical talent would help!",
+  "speed": 0.822
+ },
+ {
+  "id": "l27",
+  "speaker": "kiko",
+  "text": "You were making sounds like a broken trumpet!",
+  "speed": 0.728
+ },
+ {
+  "id": "l28",
+  "speaker": "melody",
+  "text": "The last note must be sung... what if I ruin it?",
+  "speed": 0.868
+ },
+ {
+  "id": "l29",
+  "speaker": "lumi",
+  "text": "Sing from your heart, Melody. We believe in you!",
+  "speed": 0.809
+ },
+ {
+  "id": "l32",
+  "speaker": "bobo",
+  "text": "Ooh! A tiny golden banana music box!",
+  "speed": 0.709
+ },
+ {
+  "id": "l33",
+  "speaker": "lumi",
+  "text": "Another magical mystery! Let's discover where that garden leads!",
+  "speed": 0.801
+ },
+ {
+  "id": "l34",
+  "speaker": "narrator",
+  "text": "Next time... the secret of the floating flower garden!",
+  "speed": 0.975
+ },
+ {
+  "id": "src_la",
+  "speaker": "melody",
+  "text": "Laaa.",
+  "speed": 0.7
+ },
+ {
+  "id": "src_ah",
+  "speaker": "melody",
+  "text": "Aaaah.",
+  "speed": 0.6
+ }
+]

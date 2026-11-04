@@ -25,7 +25,7 @@ FPS = 30
 rng = np.random.default_rng(33)
 
 # How much each speaker's voice is pitched up, matching earlier episodes
-PITCH = {"lumi": 1.14, "bobo": 1.18, "narrator": 1.0, "butterfly": 1.25, "draco": 1.2, "moonia": 1.1}
+PITCH = {"lumi": 1.14, "bobo": 1.18, "narrator": 1.0, "butterfly": 1.25, "draco": 1.2, "moonia": 1.1, "coralie": 1.16, "niva": 1.2, "kiko": 1.3, "zuzu": 1.22, "nimbus": 1.32, "bloop": 1.38, "whisper": 0.96, "tock": 1.32, "pico": 1.36, "melody": 1.3}
 MIN_DIALOGUE_GAP_DB = 8.0
 
 
@@ -220,8 +220,8 @@ def ending_chord(soundtrack, t0):
 class Soundtrack:
     def __init__(self, episode, duration, seed=None):
         global rng
-        if not 40.0 <= duration <= 50.0:
-            raise SystemExit(f"duration must be 40-50 seconds, got {duration}")
+        if not 40.0 <= duration <= 130.0:
+            raise SystemExit(f"duration must be 40-130 seconds, got {duration}")
         if seed is not None:
             rng = np.random.default_rng(seed)
         self.episode = episode
@@ -251,8 +251,12 @@ class Soundtrack:
         print(f"{line_id:4} {speaker:10} {start:6.2f} -> {end:6.2f}  ({end - start:.2f}s)")
         return end
 
-    def finish(self):
-        """Mixes with dialogue on top, then writes public/<ep>/audio.wav and src/<ep>/timeline.json."""
+    def finish(self, mouth_style="v1"):
+        """Mixes with dialogue on top, then writes public/<ep>/audio.wav and src/<ep>/timeline.json.
+
+        mouth_style "v2" (from Episode 10): each line is normalized on its own so quiet lines still open
+        the mouth, the mouth closes between words, opens fast and closes a little slower (attack/release),
+        and leads the sound by one frame, the way animators time lip sync."""
         if not self.placed:
             raise SystemExit("no voice lines were placed")
         voice_mix = reverb(sum(self.voice.values()), 0.9, 0.1)
@@ -286,7 +290,26 @@ class Soundtrack:
         mouth = {}
         for speaker, x in self.voice.items():
             rms = np.array([np.sqrt(np.mean(x[i * spf : (i + 1) * spf] ** 2)) for i in range(frames)])
-            mouth[speaker] = [round(float(v), 2) for v in np.clip(rms / 0.12, 0, 1) ** 0.7]
+            if mouth_style != "v2":
+                mouth[speaker] = [round(float(v), 2) for v in np.clip(rms / 0.12, 0, 1) ** 0.7]
+                continue
+            target = np.zeros(frames)
+            for p in self.placed:
+                if p["speaker"] != speaker:
+                    continue
+                a_, b_ = int(p["start"] * FPS), min(frames, int(np.ceil(p["end"] * FPS)) + 1)
+                seg = rms[a_:b_]
+                ref = np.percentile(seg, 90) + 1e-6
+                v = np.clip(seg / ref, 0, 1.15)
+                v = np.where(v < 0.16, 0.0, v)  # closed between words
+                target[a_:b_] = np.maximum(target[a_:b_], v)
+            sm = np.zeros(frames)
+            for i in range(frames):
+                prev = sm[i - 1] if i else 0.0
+                k = 0.65 if target[i] > prev else 0.4
+                sm[i] = prev + (target[i] - prev) * k
+            sm = np.concatenate([sm[1:], [0.0]])  # one frame of lead
+            mouth[speaker] = [round(float(v), 2) for v in np.clip(sm, 0, 1) ** 0.85]
         src = os.path.join(ROOT, "src", self.episode)
         os.makedirs(src, exist_ok=True)
         with open(os.path.join(src, "timeline.json"), "w") as f:
