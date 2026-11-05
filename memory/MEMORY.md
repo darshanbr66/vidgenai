@@ -1,0 +1,8 @@
+- [YouTube video series](youtube-video-series.md) — Lumi's Magical Adventures: episodes one at a time, `epNN-<title>.mp4` in video-demo/out/, reuse characters and voices
+- [Lumi Studio app](lumi-studio-app.md) — the user's local prompt-to-episode app in lumi-studio/, runs claude -p, must stay on dontAsk permissions
+- [3D upgrade](3d-upgrade.md) — since ep05: Three.js 3D worlds + original 2D characters; no Blender on this laptop; episodes now up to 130 s
+- [Comedy rules](comedy-rules.md) — every episode needs 3+ gags and one replayable comedy scene; Bobo food-loving/scaredy, Draco overconfident
+- [Original score per scene](original-score-per-scene.md) — never reuse audio_kit.run() bed; score_kit.py Cues with new key/tempo/instruments per scene (since ep09)
+- [Dialogue pace](dialogue-pace.md) — ep09 was too fast; since ep10 speeds ~0.88 (pitch-up also speeds voices), ~0.4 s gaps, lip sync v2, measure syllables/s
+- [Render safely](render-safely.md) — use tools/render_chunks.sh (resumable chunks); TaskStop leaves Remotion running, so kill the process tree and verify
+- [Singing and cues](singing-and-cues.md) — since ep14: sing_kit.py makes characters sing in their own voice; audio script writes cues.json read by Episode.tsx

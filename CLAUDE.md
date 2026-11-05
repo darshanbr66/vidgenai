@@ -3,6 +3,10 @@
 Children's YouTube Shorts series for the channel "Little Moon Story World", built in code with
 Remotion (React/SVG), Three.js (`@remotion/three`), synthesized audio and FFmpeg, inside `video-demo/`.
 
+**Before any episode work, read every note in `memory/` (index: `memory/MEMORY.md`).** They hold the
+series rules learned from the user's feedback (comedy, dialogue pace, original score per scene,
+singing, safe rendering, 3D upgrade) and must be followed.
+
 Existing workflow (unchanged, reuse it):
 
 - Series rules, how to build an episode, and files per episode: `lumi-studio/worker/guide.md`
