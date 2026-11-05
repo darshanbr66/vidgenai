@@ -6,3 +6,4 @@
 - [Dialogue pace](dialogue-pace.md) — ep09 was too fast; since ep10 speeds ~0.88 (pitch-up also speeds voices), ~0.4 s gaps, lip sync v2, measure syllables/s
 - [Render safely](render-safely.md) — use tools/render_chunks.sh (resumable chunks); TaskStop leaves Remotion running, so kill the process tree and verify
 - [Singing and cues](singing-and-cues.md) — since ep14: sing_kit.py makes characters sing in their own voice; audio script writes cues.json read by Episode.tsx
+- [Episode 15 status](ep15-status.md) — ep15 built but render stopped at frame 2100 (memory/heat); run `npm run render:ep15` on the ASUS, validate, then add to series.json

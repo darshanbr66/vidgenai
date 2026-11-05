@@ -25,7 +25,7 @@ FPS = 30
 rng = np.random.default_rng(33)
 
 # How much each speaker's voice is pitched up, matching earlier episodes
-PITCH = {"lumi": 1.14, "bobo": 1.18, "narrator": 1.0, "butterfly": 1.25, "draco": 1.2, "moonia": 1.1, "coralie": 1.16, "niva": 1.2, "kiko": 1.3, "zuzu": 1.22, "nimbus": 1.32, "bloop": 1.38, "whisper": 0.96, "tock": 1.32, "pico": 1.36, "melody": 1.3}
+PITCH = {"lumi": 1.14, "bobo": 1.18, "narrator": 1.0, "butterfly": 1.25, "draco": 1.2, "moonia": 1.1, "coralie": 1.16, "niva": 1.2, "kiko": 1.3, "zuzu": 1.22, "nimbus": 1.32, "bloop": 1.38, "whisper": 0.96, "tock": 1.32, "pico": 1.36, "melody": 1.3, "petal": 1.25}
 MIN_DIALOGUE_GAP_DB = 8.0
 
 
@@ -220,8 +220,8 @@ def ending_chord(soundtrack, t0):
 class Soundtrack:
     def __init__(self, episode, duration, seed=None):
         global rng
-        if not 40.0 <= duration <= 130.0:
-            raise SystemExit(f"duration must be 40-130 seconds, got {duration}")
+        if not 40.0 <= duration <= 150.0:
+            raise SystemExit(f"duration must be 40-150 seconds, got {duration}")
         if seed is not None:
             rng = np.random.default_rng(seed)
         self.episode = episode

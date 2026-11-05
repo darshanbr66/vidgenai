@@ -14,7 +14,7 @@ import soundfile as sf
 from kokoro_onnx import Kokoro
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-VOICES = {"lumi": "af_bella", "bobo": "am_puck", "narrator": "af_heart", "butterfly": "af_sky", "draco": "af_nova", "moonia": "bf_emma", "coralie": "af_sarah", "niva": "af_kore", "kiko": "am_liam", "zuzu": "bm_fable", "nimbus": "af_sky", "bloop": "af_jessica", "whisper": "af_nicole", "tock": "bm_george", "pico": "bf_lily", "melody": "af_aoede"}
+VOICES = {"lumi": "af_bella", "bobo": "am_puck", "narrator": "af_heart", "butterfly": "af_sky", "draco": "af_nova", "moonia": "bf_emma", "coralie": "af_sarah", "niva": "af_kore", "kiko": "am_liam", "zuzu": "bm_fable", "nimbus": "af_sky", "bloop": "af_jessica", "whisper": "af_nicole", "tock": "bm_george", "pico": "bf_lily", "melody": "af_aoede", "petal": "bf_alice"}
 
 episode, model_dir = sys.argv[1], sys.argv[2]
 folder = os.path.join(ROOT, "audio-src", episode)

@@ -14,6 +14,7 @@ import { Episode as Episode11 } from "./ep11/Episode";
 import { Episode as Episode12 } from "./ep12/Episode";
 import { Episode as Episode13 } from "./ep13/Episode";
 import { Episode as Episode14 } from "./ep14/Episode";
+import { Episode as Episode15, EP15_FRAMES } from "./ep15/Episode";
 import { LittleStarStory } from "./story/Story";
 
 export const RemotionRoot = () => (
@@ -48,5 +49,6 @@ export const RemotionRoot = () => (
     {/* Episode 13: 115.6 seconds, the Rainbow Bridge, Pico the rainbow chameleon, a new six-cue score */}
     <Composition id="Ep13" component={Episode13} durationInFrames={3468} fps={30} width={1080} height={1920} />
     <Composition id="Ep14" component={Episode14} durationInFrames={3879} fps={30} width={1080} height={1920} />
+    <Composition id="Ep15" component={Episode15} durationInFrames={EP15_FRAMES} fps={30} width={1080} height={1920} />
   </>
 );

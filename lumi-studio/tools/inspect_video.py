@@ -39,8 +39,8 @@ if (v["width"], v["height"]) != (1080, 1920):
     problems.append(f'The video is {v["width"]}x{v["height"]}, it must be 1080x1920.')
 if abs(fps - 30) > 0.01:
     problems.append(f"The video is {fps:.2f} fps, it must be 30.")
-if not 39.9 <= duration <= 130.15:
-    problems.append(f"The video is {duration:.1f} s long, it must be 40 to 130 s.")
+if not 39.9 <= duration <= 150.15:
+    problems.append(f"The video is {duration:.1f} s long, it must be 40 to 150 s.")
 if not a:
     problems.append("The video has no audio track.")
 

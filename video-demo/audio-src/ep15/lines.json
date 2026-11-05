@@ -1,0 +1,182 @@
+[
+ {
+  "id": "l1",
+  "speaker": "melody",
+  "text": "Bye, friends! Say hello to the flowers for me!",
+  "speed": 0.71
+ },
+ {
+  "id": "l2",
+  "speaker": "lumi",
+  "text": "Thank you, Melody! To the flower garden!",
+  "speed": 0.79
+ },
+ {
+  "id": "l3",
+  "speaker": "lumi",
+  "text": "Wow! A whole garden, floating above a lake!",
+  "speed": 0.783
+ },
+ {
+  "id": "l4",
+  "speaker": "bobo",
+  "text": "This garden is beautiful! Do they grow banana trees here?",
+  "speed": 0.798
+ },
+ {
+  "id": "l5",
+  "speaker": "kiko",
+  "text": "Careful, Bobo! That flower might bite!",
+  "speed": 0.75
+ },
+ {
+  "id": "l6",
+  "speaker": "draco",
+  "text": "Relax! I know everything about flowers!",
+  "speed": 0.741
+ },
+ {
+  "id": "l7",
+  "speaker": "draco",
+  "text": "Ah... ahh... ah-CHOO!",
+  "speed": 0.8
+ },
+ {
+  "id": "l8",
+  "speaker": "lumi",
+  "text": "Oh no... the flowers are closing, and losing their colours!",
+  "speed": 0.86
+ },
+ {
+  "id": "l9",
+  "speaker": "petal",
+  "text": "Hello! I'm Petal, guardian of the Floating Flower Garden!",
+  "speed": 0.79
+ },
+ {
+  "id": "l10",
+  "speaker": "petal",
+  "text": "Our Bloom Crystal stopped shining. The whole garden is fading!",
+  "speed": 0.8
+ },
+ {
+  "id": "l11",
+  "speaker": "petal",
+  "text": "Watch my flower magic! Ah... ahh...",
+  "speed": 1.068
+ },
+ {
+  "id": "l12",
+  "speaker": "petal",
+  "text": "ah-CHOO!",
+  "speed": 0.84
+ },
+ {
+  "id": "l13",
+  "speaker": "kiko",
+  "text": "Bobo, I think you've become a walking flower!",
+  "speed": 0.72
+ },
+ {
+  "id": "l14",
+  "speaker": "bobo",
+  "text": "At least I smell delicious!",
+  "speed": 0.72
+ },
+ {
+  "id": "l15",
+  "speaker": "petal",
+  "text": "Follow me! Every island has its own magic flower!",
+  "speed": 0.78
+ },
+ {
+  "id": "l16",
+  "speaker": "bobo",
+  "text": "Ooh! A giant banana!",
+  "speed": 0.72
+ },
+ {
+  "id": "l17",
+  "speaker": "draco",
+  "text": "Behold! I am the Flower Dragon!",
+  "speed": 0.84
+ },
+ {
+  "id": "l18",
+  "speaker": "draco",
+  "text": "Ah... ah-CHOO!",
+  "speed": 0.8
+ },
+ {
+  "id": "l19",
+  "speaker": "petal",
+  "text": "Ahh... ah-CHOO!",
+  "speed": 0.84
+ },
+ {
+  "id": "l20",
+  "speaker": "petal",
+  "text": "The Bloom Crystal is under the lake, behind the flower gate!",
+  "speed": 0.78
+ },
+ {
+  "id": "l21",
+  "speaker": "lumi",
+  "text": "The flowers glow in order: pink, yellow, blue, purple!",
+  "speed": 0.991
+ },
+ {
+  "id": "l22",
+  "speaker": "bobo",
+  "text": "I came to save a garden, not become gardening equipment!",
+  "speed": 0.72
+ },
+ {
+  "id": "l23",
+  "speaker": "petal",
+  "text": "The crystal is so dark... What if my magic is gone?",
+  "speed": 0.84
+ },
+ {
+  "id": "l24",
+  "speaker": "lumi",
+  "text": "Your magic is still inside you, Petal. We believe in you!",
+  "speed": 0.813
+ },
+ {
+  "id": "l25",
+  "speaker": "bobo",
+  "text": "I think the flowers are trying to eat me!",
+  "speed": 0.72
+ },
+ {
+  "id": "l26",
+  "speaker": "kiko",
+  "text": "Surprise!",
+  "speed": 0.75
+ },
+ {
+  "id": "l27",
+  "speaker": "draco",
+  "text": "Time for my heroic landing!",
+  "speed": 0.889
+ },
+ {
+  "id": "l28",
+  "speaker": "bobo",
+  "text": "Ooh! A golden banana flower!",
+  "speed": 0.664
+ },
+ {
+  "id": "l29",
+  "speaker": "lumi",
+  "text": "An island in the stars? I wonder what magic is waiting there!",
+  "speed": 0.851
+ },
+ {
+  "id": "l30",
+  "speaker": "narrator",
+  "text": "Next time... the secret of the Starlight Island!",
+  "speed": 1.07
+ }
+]

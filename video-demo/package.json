@@ -17,7 +17,8 @@
     "render:ep11": "EP=ep11 COMP=Ep11 TOTAL=2112 OUTFILE=out/ep11-whispering-cave.mp4 bash tools/render_chunks.sh",
     "render:ep12": "EP=ep12 COMP=Ep12 TOTAL=2514 OUTFILE=out/ep12-ancient-clock-tower.mp4 bash tools/render_chunks.sh",
     "render:ep13": "EP=ep13 COMP=Ep13 TOTAL=3468 OUTFILE=out/ep13-rainbow-bridge.mp4 bash tools/render_chunks.sh",
-    "render:ep14": "EP=ep14 COMP=Ep14 TOTAL=3879 OUTFILE=out/ep14-magical-music-box.mp4 bash tools/render_chunks.sh"
+    "render:ep14": "EP=ep14 COMP=Ep14 TOTAL=3879 OUTFILE=out/ep14-magical-music-box.mp4 bash tools/render_chunks.sh",
+    "render:ep15": "EP=ep15 COMP=Ep15 TOTAL=4077 OUTFILE=out/ep15-floating-flower-garden.mp4 bash tools/render_chunks.sh"
   },
   "dependencies": {
     "@react-three/fiber": "8.17.10",
